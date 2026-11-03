@@ -2,7 +2,7 @@ function toCase(text) {
   // write your code here
 	
     if(text===null){
-		return "";
+		return "-";
 	}
 	return (text.toLowerCase() + "-" + text.toUpperCase());
 }
